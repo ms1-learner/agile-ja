@@ -4,10 +4,3 @@
 #
 # user_input = "hello"
 # result = {"h":1, "e":1, "l":2, "o":1}
-user_input = input()
-result = {}
-for char in user_input:
-    if not char in result:
-        result[char] = 1
-    else:
-        result[char] += 1
